@@ -29,27 +29,27 @@ A real-time network packet capture and analysis tool built with pure Python. Mon
 ### Capture all traffic (unlimited)
 ```bash
 # Windows — run as Administrator
-python network_monitor.py
+python Network_monitor.py
 
 # Linux / Mac
-sudo python network_monitor.py
+sudo python Network_monitor.py
 ```
 
 ### Capture a fixed number of packets
 ```bash
-python network_monitor.py -n 100
+python Network_monitor.py -n 100
 ```
 
 ### Filter by protocol
 ```bash
-python network_monitor.py -f TCP
-python network_monitor.py -f UDP
-python network_monitor.py -f ICMP
+python Network_monitor.py -f TCP
+python Network_monitor.py -f UDP
+python Network_monitor.py -f ICMP
 ```
 
 ### Combine options
 ```bash
-sudo python network_monitor.py -n 50 -f TCP
+sudo python Network_monitor.py -n 50 -f TCP
 ```
 
 Press `Ctrl+C` at any time to stop and view the summary.
