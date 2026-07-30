@@ -117,7 +117,3 @@ Raw socket access requires elevated privileges on all operating systems — this
 This tool is intended for **educational purposes** and should only be used to monitor **your own network or devices you have permission to monitor**. Unauthorized interception of network traffic may be illegal in your jurisdiction.
 
 ---
-
-## License
-
-MIT License — free to use and modify.
